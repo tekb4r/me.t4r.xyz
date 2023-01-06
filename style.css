@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,500,600,700,800,900&display=swap');
+body
+{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+h2
+{
+    text-align: center;
+    font-size: 4em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(SecularOne-Regular.ttf);
+    font-weight: bold;
+ }
+a
+{
+    text-align: center;
+    font-size: 3em;
+    color:rgb(83, 80, 255);
+    font-family:monospace;
+    
+}
+a:hover
+{
+    text-align: center;
+    font-size: 3em;
+    color:rgb(52, 49, 255);
+    font-family:monospace;
+    
+}
+#dc
+{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 3em;
+    color:rgb(164, 243, 232);
+    font-family:monospace;
+}
+#email
+{
+    text-align: center;
+    font-size: 3em;
+    color:rgb(86, 153, 255);
+    font-family:monospace;
+}
+#top
+{   padding: 20px;
+    background-color:rgb(27, 27, 27);
+    justify-content: right;
+    display: flex;
+    z-index: 100;
+}
+#contact
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(15, 15, 15);
+    text-decoration: none;
+    color: white;
+    transform: translateY(-5px);
+    margin-right: 20px;
+    font-size: 30px;
+    width: 200px;
+}
+#contact:hover ,
+#contact.activated
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: -20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    transform: translateY(-5px);
+    margin-right: 20px;
+    font-size: 30px;
+    width: 200px;
+}
+#pnf
+{
+    font-size: 50px;
+}
+#pnf1
+{
+    margin-bottom: -50px;
+font-size: 150px;
+}
+#amp
+{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Merriweather', sans-serif;
+}
+#amtbot
+{
+    font-size: 30px;
+    font-family: 'Merriweather', sans-serif;
+}
