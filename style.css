@@ -9,6 +9,12 @@ body
 }
 h2
 {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    text-shadow: 2px 2px #121129;
     margin-top: 0px;
     text-align: center;
     font-size: 4em;
@@ -54,7 +60,8 @@ h2
 }
 #top
 {   
-    padding: 25px;
+    padding-inline: 25px;
+    padding-block: 15px;
     background-color:rgba(0, 0, 0, 0.6);
     justify-content: right;
     display: flex;
@@ -112,6 +119,11 @@ font-size: 150px;
 }
 #upper-text
 {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     text-align: center;
     font-size: 20px;
     color: rgb(218, 218, 218);
@@ -139,11 +151,24 @@ font-size: 150px;
 }
 #links img
 {
+    filter: drop-shadow(2px 2px 2px #11132c);
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    width: 50px;
+    margin-inline: 20px;
+    transition: all 0.3s ease;
+}
+#links img:hover
+{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    transform: scale(1.1);
     width: 50px;
     margin-inline: 20px;
 }
@@ -159,9 +184,14 @@ font-size: 150px;
 }
 h3
 {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     margin-top: 0px;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     margin-bottom: 20px;
@@ -195,7 +225,7 @@ footer a
     text-decoration: none;
     color: rgb(65, 109, 255);
 }
-#fireflies
+#particles-js
 {   
     position: absolute; 
     left: 0; 
@@ -203,14 +233,49 @@ footer a
     margin-left: auto; 
     margin-right: auto;
     opacity: 50%;
-    width: 800px; /* Need a specific value to work */
-    mix-blend-mode: lighten;
-    margin-top: 40px;
+    width: 100%; /* Need a specific value to work */
     z-index: -5;
+    height: 98%;
 }
 #firefliesd
 {
     display: flex;
     justify-content: center;
     z-index: 1;
+}
+#top img
+{
+    transition: all 0.2s ease;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    width: 25px;
+    margin-inline: 5px;
+    border-radius: 3px;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+#top img:hover
+{
+    padding-bottom: 5px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin-inline: 5px;
+    border-radius: 3px;
+    transform: scale(1.1);
+    border-bottom:5px solid rgb(17, 120, 255);
+}
+
+.selected
+{
+    border-radius: 3px;
+    padding-bottom: 5px;
+    transform: scale(1.1);
+    border-bottom:5px solid rgb(17, 120, 255);
 }

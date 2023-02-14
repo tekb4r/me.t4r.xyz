@@ -13,8 +13,9 @@
     </head>
     <body>
         
-        <div id="firefliesd"></div><img id="fireflies" src="fireflies.gif"></div>
+        <div id="particles-js"></div>
         <div id="top">
+            <a onclick=plLang() id="pl"><img id="plimg" src="https://flagicons.lipis.dev/flags/4x3/pl.svg"></a><a onclick="engLang()"><img id="eng" class="selected" src="https://flagicons.lipis.dev/flags/4x3/gb.svg"></a>
             <!-- <a id="contact" class="activated" href="index.html">Home</a>
             <a id="contact" href="contact.html">Contact</a> -->
         </div>
@@ -23,19 +24,21 @@
         <h2>tekb4r</h2>
     </div>
         <div id="links">
-            <a href="https://discord.com/users/357535972721688578"><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg"></a>
+            <a href="https://discord.com/users/357535972721688578"><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a69f118df70ad7828d4_icon_clyde_blurple_RGB.svg"></a>
             <a href="https://github.com/tekb4r"><img src="github-mark.png"></a>
         </div>
         <div id="projects">
-        <h3>My projects:</h3> <hr>
+        <h3 id="myproj">My projects:</h3> <hr>
         <ul>
         <li><a class="project" href="http://tbot.t4r.xyz">tBot - Discord Bot</a></li>
-        <li><a class="project" href="https://www.nlmc.pl">NLMC - Minecraft Server (Soon)</a></li>
+        <li><a class="project" id="mcserv" href="https://www.nlmc.pl">NLMC - Minecraft Server (Soon)</a></li>
         <li><a class="project" href="https://hrcount.t4r.xyz">Hour Counter</a></li>
         </div>
         <footer>
             <p>© 2023 t4r.xyz</p>
             <p>Background - <a href="https://www.freepik.com/author/upklyak" class="ftlink">Freepik</a></p>
         </footer>
+        <script src="particles.js"></script>
     </body>
+    <script src="script.js"></script>
 </html>
