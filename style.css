@@ -200,6 +200,7 @@ h3
 }
 #projects
 {
+    max-width: 600px;
     backdrop-filter: blur(2px);
     width: 55%;
     margin-top: 40px;
