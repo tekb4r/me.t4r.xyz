@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,500,600,700,800,900&display=swap');
+
 body
 {
     background-image: url(background.jpg);
+    background-attachment: fixed;
    background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,6 +37,7 @@ h2
     font-size: 2.5em;
     color:rgb(112, 109, 253);
     font-family:monospace;
+    transition: all 0.1s ease;
     
 }
 .project:hover
@@ -282,4 +285,20 @@ footer a
     padding-bottom: 5px;
     transform: scale(1.1);
     border-bottom:5px solid rgb(17, 120, 255);
+}
+.project img
+{
+    height: 20px;
+    border-radius: 4px;
+}
+@media (max-width:200px){
+    #projects {
+        width: 1000px  !important;
+    }
+}
+.plimg
+{
+    margin-left: 5px;
+    height: 20px;
+    border-radius: 3px;
 }

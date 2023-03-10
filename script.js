@@ -8,12 +8,12 @@ let data = {
     polish: {
         hello: "Cześć, jestem",
         projects: "Moje projekty:",
-        mcserver: "NLMC - Serwer Minecraft (Wkrótce)"
+        mcserver: "NLMC - Serwer Minecraft"
     },
     english: {
         hello: "Hello, I'm",
         projects: "My projects:",
-        mcserver: "NLMC - Minecraft Server (Soon)"
+        mcserver: 'NLMC - Minecraft Server'
     }
 }
 function plLang() {
