@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Francois+One&family=Kanit:wght@500&family=Montserrat&family=Mukta:wght@300&family=Noto+Sans&family=Roboto&family=Rubik&family=Wix+Madefor+Display:wght@800&display=swap');
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    border: 0px;
+    background:radial-gradient(#392ac0,#020314);
+}
+#box {
+    animation: load 1.5s;
+    border-left: 8px solid rgb(182, 182, 182);
+    color: rgb(238, 238, 238);
+    font-family: Roboto;
+    width: clamp(200px,70vw,600px);
+    margin: auto;
+    margin-top: clamp(100px,20vw,300px);
+    padding-left: 10px;
+    border-radius: 8px;
+}
+p {
+    color: rgb(219, 219, 219);
+}
+#contact a {
+    color: rgb(109, 198, 250);
+}
+h3{
+    color: rgb(224, 224, 224);
+}
+footer p{
+    font-family: Roboto;
+}
+footer {
+    background: linear-gradient(#00000000, #00000080);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+@keyframes load {
+    from {
+        filter: blur(200px);
+    }
+    to {
+        filter: blur(0px);
+    }
+}
+#projects {
+    animation: load 2s;
+    font-family: alkatra;
+    text-align: center;
+    font-size: clamp(25px,1.5vw,50px);
+}
+#projects a{
+    color: rgb(170, 66, 255);
+    text-decoration: none;
+}
+#soon {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: clamp(30px, 5vw, 100px);
+    margin-top: clamp(100px, 50vw, 400px);
+}
