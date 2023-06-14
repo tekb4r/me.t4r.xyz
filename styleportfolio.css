@@ -62,4 +62,5 @@ footer {
     text-align: center;
     font-size: clamp(30px, 5vw, 100px);
     margin-top: clamp(100px, 50vw, 400px);
+    user-select:none;
 }
